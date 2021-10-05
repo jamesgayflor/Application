@@ -1,0 +1,55 @@
+@media screen and (max-width: 320px) {
+    
+    #he1{font-size: 25px;}
+
+    .div1{margin-top: 20px;}
+
+    .div1>a{padding-bottom: 5px;
+    font-size: 22px;}
+
+    .div2{margin-top: 30px;}
+
+    .div2>div{font-size: 18px;}
+
+    footer{height: auto;}
+
+    footer>p{font-size: 12px;}
+}
+
+@media screen and (min-width: 600px) {
+    
+    .div1{display:flex;
+        flex-direction: row;
+        background-color: white;
+        justify-content:flex-start;
+        background-color: 0px;
+        border-bottom: 0px;
+        border-right: 0px;
+        margin-top: 40px;}
+
+        .div1>a{padding-right: 10px;
+        cursor: pointer;}
+
+        hr{display: none;}
+
+        .hr1{display: block;}
+
+        .div2{margin-top: 50px;}
+}
+
+@media screen and (min-width: 700px) {
+
+    .div2{display: none;}
+
+    .div1{margin-left: 28%;}
+
+    #he2{width: 75%;
+    background-color: orange;
+border-radius: 5px;
+padding-left: 5px;}
+
+.div3>p{font-size: 30px;}
+
+body{background: url(AfricanAmericanCS.jpg)center center fixed;
+position: cover;}
+}

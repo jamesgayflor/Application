@@ -1,0 +1,94 @@
+@media screen and (max-width: 320px) {
+    
+    #he1{font-size: 25px;}
+
+    .div1{margin-top: 20px;}
+
+    .div1>a{padding-bottom: 5px;
+    font-size: 22px;}
+
+    .div2{margin-top: 30px;}
+
+    .div2>div{font-size: 18px;}
+
+    footer{height: auto;}
+
+    footer>p{font-size: 12px;}
+}
+
+@media screen and (min-width: 600px) {
+    
+    .div1{display:flex;
+        flex-direction: row;
+        background-color: white;
+        justify-content:flex-start;
+        background-color: 0px;
+        border-bottom: 0px;
+        border-right: 0px;
+        margin-top: 30px;}
+
+        .div1>a{padding-right: 10px;
+        cursor: pointer;}
+
+        hr{display: none;}
+
+        .hr1{display: block;}
+
+        .div2{margin-top: 50px;}
+
+        .div1>a:hover{text-decoration: underline;
+            color: goldenrod;}
+            
+            .div1>a{transition: 0.5s ease-out 0s;}
+}
+
+@media screen and (min-width: 700px) {
+
+    .div2{display: none;}
+
+    .div1{margin-left: 28%;}
+
+    #he2{width: 75%;
+    color: white;
+border-radius: 5px;
+margin-left: 20px;
+display: block;
+margin-top: 18%;
+font-family: sans-serif;
+font-style: oblique;
+font-size: 35px;}
+
+.div3>p{font-size: 30px;}
+
+body{background:linear-gradient(rgba(0, 0, 0, 0.54),rgba(0, 0, 0, 0.54),rgba(0, 0, 0, 0.54)), url(AfricanAmericanCS.jpg)no-repeat fixed;
+background-size: cover;}
+
+*{padding:0;
+    margin: 0;
+scroll-behavior: smooth;
+box-sizing: border-box;}
+
+.div1{margin-top: -20px;}
+
+.div3{display:block;
+margin-left: 28px;
+margin-top: 10%;
+color: white;}
+
+footer{margin-top: 10%;
+margin-left: 28px;}
+
+footer>p{color: white;}
+
+.div1>a:hover{text-decoration: underline;
+color: goldenrod;}
+
+.div1>a{transition: 0.5s ease-out 0s;}
+
+}
+
+@media screen and (min-width: 850px) {
+
+    .div1{margin-left:40%;}
+
+}
